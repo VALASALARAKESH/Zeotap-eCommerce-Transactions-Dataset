@@ -1,4 +1,3 @@
-
 ## Project Structure
 ```
 ecommerce_transactions/
@@ -31,7 +30,7 @@ ecommerce_transactions/
 └── README.md
 ```
 
-## Output
+# Output
 - `Rakesh_Valasala_EDA.pdf`: PDF report with business insights.
 - `Rakesh_Valasala_Lookalike.csv`: CSV file with top 3 lookalikes and their similarity scores for the first 20 customers.
 - `Rakesh_Valasala_Clustering.pdf`: PDF report with clustering results and metrics.
