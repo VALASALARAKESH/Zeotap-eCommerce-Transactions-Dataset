@@ -1,0 +1,38 @@
+
+## Project Structure
+```
+ecommerce_transactions/
+│
+├── data/
+│   ├── Customers.csv
+│   ├── Products.csv
+│   └── Transactions.csv
+│
+├── output/
+│   ├── Rakesh_Valasala_EDA.pdf
+│   ├── Rakesh_Valasala_Lookalike.csv
+│   ├── Rakesh_Valasala_Clustering.pdf
+│   └── clustering_visualizations/
+│       ├── KMeans_cluster_visualization.png
+│       ├── Agglomerative_cluster_visualization.png
+│       └── ...
+│
+├── src/
+│   ├── eda.py
+│   ├── lookalike_model.py
+│   └── clustering.py
+│
+├── notebooks/
+│   ├── Rakesh_Valasala_EDA.ipynb
+│   ├── Rakesh_Valasala_Lookalike.ipynb
+│   └── Rakesh_Valasala_Clustering.ipynb
+│
+├── requirements.txt
+└── README.md
+```
+
+## Output
+- `Rakesh_Valasala_EDA.pdf`: PDF report with business insights.
+- `Rakesh_Valasala_Lookalike.csv`: CSV file with top 3 lookalikes and their similarity scores for the first 20 customers.
+- `Rakesh_Valasala_Clustering.pdf`: PDF report with clustering results and metrics.
+- Clustering visualizations saved in the `output/clustering_visualizations/` directory.
